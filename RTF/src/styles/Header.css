@@ -1,0 +1,16 @@
+.headerCont h1 {
+    margin: 1rem;
+    font-size: 5rem;
+    color: rgba(255,255,255, 0.5);
+}
+
+.headerCont {
+    height: 10rem;
+    width: 100%;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+

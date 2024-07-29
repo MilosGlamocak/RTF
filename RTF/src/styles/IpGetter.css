@@ -1,0 +1,36 @@
+.ipGetterCont {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 30%;
+    height: 90svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 1rem;
+    user-select: none;
+}
+
+.ipGetterCont * {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.geoFound {
+    color: greenyellow;
+    margin-bottom: 1rem;
+}
+
+.geoNotFound {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.userInfoCont {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.staticInfo {
+    color: rgba(255,255,255, 0.5);
+}
